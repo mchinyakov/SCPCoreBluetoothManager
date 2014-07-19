@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/steprescott/SCPCoreBluetoothManager.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ste_prescott'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
-  s.source_files = 'Classes/**/*.h'
+  s.source_files = 'Classes/**/*.{h,m}'
 
   s.frameworks = 'CoreBluetooth'
   s.dependency 'SVProgressHUD'
